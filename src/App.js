@@ -22,7 +22,7 @@ function App() {
         <div className="music">
           <p>Name: {number}</p>
           <p style={singerStyle}>Name: {singer.name} {singer.job}</p>
-          <p>Name: {singer2.name} {singer2.job}</p>
+          <p style={{color: 'blue', backgroundColor: 'yellow'}}>Name: {singer2.name} {singer2.job}</p>
         </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
