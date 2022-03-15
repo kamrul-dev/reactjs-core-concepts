@@ -5,6 +5,11 @@ const number = 5555;
 const singer = {name: 'James', job: 'Singer'};
 const singer2 = {name: 'Runa Laila', job: 'Singer2'};
 
+const singerStyle = {
+  color: 'purple',
+  backgroundColor: 'white'
+}
+
 function App() {
   return (
     <div className="App">
@@ -16,7 +21,7 @@ function App() {
         </div>
         <div className="music">
           <p>Name: {number}</p>
-          <p>Name: {singer.name} {singer.job}</p>
+          <p style={singerStyle}>Name: {singer.name} {singer.job}</p>
           <p>Name: {singer2.name} {singer2.job}</p>
         </div>
         <p>
